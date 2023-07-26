@@ -1,0 +1,456 @@
+
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ********************************NAV SECTION************************************** */
+.nav-section{
+    padding: 0rem;
+    display: flex;
+    background-color: #0b0c10;
+    justify-content: center;
+}
+.nav-section .logo span{
+    display: none;
+}
+.nav-section .logo{
+    width: auto;
+    margin: 1.2rem 1.7rem;
+}
+.nav-section .logo h1{
+    color:#66FCF1;
+    font-size: 2.5rem;
+}
+.nav-section .logo h3{
+    color: #c5c6c7;
+    text-align: right;
+    font-family: cursive;
+    font-size: 0.8rem;
+}
+.nav-section .nav-itms{
+    display: flex;
+    margin: 0rem 1rem;
+    padding: 0.7rem 0rem;
+}
+.nav-section .nav-itms .nav-buttons{
+    margin: 1.2rem 0.4rem;
+    padding: 0.7rem 0.7rem;
+    font-size: 1.2rem;
+    color:#c5c6c7;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.nav-section .nav-itms .nav-buttons:hover{
+    background-color: #66FCF1;
+    color: #0b0c10;
+    cursor: pointer;
+    border-radius: 6%;
+}
+
+/* ********************************BACKGROUND************************************** */
+.background{
+    width: 100%;
+    height: min-content;
+    padding: 0;
+    margin: 0;
+    background-color: #1f2833;
+    overflow-x: hidden;
+
+}
+.background img{
+    width: 100%;
+    height: 38rem;
+    padding: 0;
+    margin: 0;
+}
+/* ********************************SECTION 1************************************** */
+.section1{
+    margin: 0;
+    width: 100%;
+}
+.section1 .welcome{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 1rem 0rem;
+    background-color: #1f2833;
+}
+.section1 .welcome .content{
+    padding: 1rem 0rem;
+}
+.section1 .welcome .content h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.3rem;
+    color: #66FCF1;
+}
+.section1 .welcome .content h3{
+    margin: 0.8rem 0rem;
+    font-size: 1.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: #c5c6c7;
+}
+
+.section1 .welcome .images{
+    padding: 0.5rem;
+    width: 92%;
+    height: 100%;
+    margin: 0rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0.5rem;
+}
+.section1 .welcome .images .image-itm{
+    width: 100%;
+    height: 100%;
+    color: #66FCF1;
+    border: 1px solid #66FCF1;
+    background-color: #0b0c10;
+}
+.section1 .welcome .images .image-itm:hover{
+    cursor: pointer;
+    border: 1px solid #0b0c10;
+    background-color: #66FCF1;
+    color: #0b0c10;
+}
+.section1 .welcome .images .image-itm .img{
+    width: 100%;
+    height: 86%;
+}
+.section1 .welcome .images .image-itm .img img{
+    width: 100%;
+    height:100%;
+}
+
+.section1 .welcome .images h2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0.5rem;
+    font-size: 1.5rem;
+}
+
+
+/* ********************************SECTION 2************************************** */
+.section2{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    padding: 2rem 0rem;
+    background-color: #1f2833;
+
+}
+.section2 .about{
+    margin: 0rem auto;
+    padding: 1rem;
+    width: 90%;
+    color: #1f2833;
+    background-color:#0b0c10
+}
+.section2 .about .heading{
+    text-align: center;
+    color: #66FCF1;
+    font-size: 2rem;
+}
+.section2 .about .heading h2{
+    font-size: 3rem;
+}
+.section2 .about .content{
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.section2 .about .content .image{
+    margin: 0.5rem;
+    width: 100%;
+}
+.section2 .about .content .image img{
+    width: 100%;
+    height: 100%;
+}
+.section2 .about .content .text{
+    padding: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #c5c6c7;
+    margin: 0.5rem;
+    width: 90%;
+    text-align: justify;
+    font-size: 1.2rem;
+}
+
+/* ********************************SECTION 3************************************** */
+.section3{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    padding: 2rem 0rem;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: #1f2833;
+}
+
+.section3 .contact{
+    margin: 0rem auto;
+    padding: 1rem;
+    width: 90%;
+    color: #c5c6c7;
+    background-color: #0b0c10;
+}
+
+.section3 .contact h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #66FCF1;
+    font-size: 3rem;
+    margin: 1rem;
+}
+.section3 .contact form{
+    display: inline-block;
+    width: 100%;
+}
+
+.section3 .contact form label{
+    font-size: 1.3rem;
+    text-align: left;
+    display: block;
+    width: 100%;
+    margin: 0;
+    font-weight: bold;
+}
+.section3 .contact form .formitm{
+    width: 30%;
+    margin: 0.5rem;
+    display: inline-block;
+}
+.section3 .contact form #textar {
+    width: 94%;
+}
+
+.section3 .contact form #submit{
+    background-color: #66FCF1;
+    width: 94%;
+}
+.section3 .contact form #submit button{
+    background-color: #66FCF1;
+}
+.section3 .contact form #submit button{
+    width: 100%;
+    padding: 0.5rem 0rem;
+    font-size: 1.3rem;
+    color: #1f2833;
+}
+
+.section3 .contact form input{
+    padding: 0.5rem 0rem;
+    width: 90%;
+    outline: none;
+    color: #1f2833;
+    font-size: 1.2rem;
+    margin: 0.2rem 0rem;
+    display: block;
+    background-color: #c5c6c7;
+}
+
+.section3 .contact form textarea{
+    width: 99%;
+    outline: none;
+    font-size: 1.5rem;
+    background-color: #c5c6c7;
+    color: #1f2833;
+}
+
+/* ********************************FOOTER SECTION************************************** */
+footer{
+    width: 100%;
+    background-color: #0b0c10;
+    color: #c5c6c7;
+    margin: 0;
+    padding: 0;
+}
+
+.footer
+{
+    width: 98%;
+    margin: 0rem auto;
+}
+
+.footer .foot_heading{
+    padding: 0.5rem 0rem;
+    font-size: 1.5rem;
+    color: #66FCF1;
+}
+.footer .foot_heading h1{
+    font-size: 3rem;
+    padding: 0.5rem;
+    margin: 0.5rem 0rem;
+    text-align: center;
+    flex-direction: row;
+}
+
+.footer .foot_cards{
+    margin: 0.1rem auto;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer .foot_cards .carditm{
+    padding: 2rem 4rem;
+    width: 40%;
+    margin: 0.5rem auto;
+}
+
+.footer .foot_cards .carditm h2{
+    text-align: left;
+    font-size: 1.5rem;
+    width: fit-content;
+    margin: 0.5rem 0rem;
+}
+
+.footer .foot_cards .carditm p{
+    margin: 0.7rem 0rem;
+    justify-content: left;
+    text-align: left;
+}
+.footer .foot_cards .carditm p:hover{
+    text-decoration: underline;
+    color: #66FCF1;
+    cursor: pointer;
+}
+.footer .foot_cards .carditm h2:hover{
+    text-decoration: underline;
+    color: #66FCF1;
+    cursor: pointer;
+}
+.footer .icons{
+    padding: 1rem;
+    justify-content: center;
+    text-align: center;
+}
+.footer .icons i{
+    font-size: 2.5rem;
+    margin: 0.5rem 1.5rem;
+    margin-bottom: 1rem;
+}
+.footer .icons i:hover{
+    color: #66FCF1;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1140px)
+{
+    *{
+        font-size: 12px;
+    }
+    .nav-section{
+        display: block;
+        padding: 1rem 0rem;
+        justify-content: center;
+    }
+    .nav-section .logo{
+        width: auto;
+        margin: 0rem 1.2rem;
+    }
+    .nav-section .logo h1{
+        text-align: center;
+    }
+    .nav-section .logo h3{
+        text-align: center;
+    }
+    .nav-section .nav-itms{
+        position: relative;
+        justify-content: center;
+        margin: 0rem 1rem;
+        padding: 0.2rem 0rem;
+    }
+    .nav-section .nav-itms .nav-buttons{
+        margin: 0.5rem 0.4rem;
+    }
+    
+    .nav-section .nav-itms .nav-buttons:hover{
+        border-radius: 0%;
+    }    
+} 
+@media screen and (max-width:734px) 
+{
+    .nav-section .nav-itms
+    {
+        display: block;
+        justify-content: center;
+        margin: 0rem 0rem;
+        width: 100%;
+        padding: 0.2rem 0rem;
+        translate: 0% -150%;
+        position:absolute;
+        background-color: #0b0c10;
+        transition: 0.5s;
+        z-index: 0;
+    }
+    .nav-section .logo{
+        z-index: +3;
+    }
+    .nav-section .logo h1{
+        width: 95%;
+        display: inline-block;
+    }
+    .nav-section .logo span{
+        display: inline-block;
+        width: 3%;
+    }
+    .nav-section .logo span i{
+        color: #66FCF1;
+        font-size: 2rem;
+    }
+
+    .nav-section .nav-itms .nav-buttons{
+        border-radius: 0%;
+        text-align: center;
+        margin: 1.2rem 0.4rem;
+        padding: 0.7rem 0.7rem;
+        font-size: 1.2rem;
+        color:#c5c6c7;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+    .section1 .welcome .images{
+        display:block
+    }
+    .section1 .welcome .images .image-itm{
+        margin: 0.5rem 0rem;
+    }
+
+    .section2 .about .content{
+        padding: 2rem;
+        display: block;
+    }
+    .section2 .about .content .text{
+        padding: 2rem 0rem;
+        width: 100%;
+    }
+
+    .section3 .contact form .formitm{
+        width: 100%;
+        display: block;
+    }
+
+    .footer .foot_cards{
+        margin: 0.1rem auto;
+        width: 95%;
+        display: block;
+        justify-content: center;
+        text-align: center;
+    }
+    .footer .foot_cards .carditm h2{
+        font-size: 1.5rem;
+        text-align: center;
+        width: 100%;
+        margin: 0.5rem 0rem;
+    }
+    .footer .foot_cards .carditm p{
+        text-align: center;
+    }
+}
