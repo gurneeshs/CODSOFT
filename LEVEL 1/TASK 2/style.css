@@ -1,0 +1,1258 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&family=Pacifico&family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Basic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #0F292F;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* CSS Variables */
+:root {
+    --navbar-height: 59px;
+}
+
+/* ----------------------NAV SECTION------------------------- */
+   .navbar {
+    position: fixed;
+    width: 100%;
+    background-color: #14A098;
+    margin: 0rem 0rem;
+    padding: 1rem auto;
+    z-index: +2;
+    opacity: 1;
+    display: flex;
+
+}
+
+.navbar .navelements {
+    padding: 0.5rem 0rem;
+    width: 70%;
+    text-align: center;
+}
+
+.navbar ul li {
+    font-family: 'Ubuntu', sans-serif;
+    justify-content: center;
+    display: inline-flex;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    width: 15%;
+    padding: 0rem 0rem;
+    margin: 0.3rem 0.1rem;
+}
+
+.navbar a {
+    font-size: 1.4rem;
+    text-align: center;
+    width: 90%;
+    padding: 0.5rem 0.4rem;
+    color: white;
+    text-decoration: none;
+    border: 1px solid #14A098;
+    border-radius: 19px;
+
+}
+
+.navbar #sign {
+    color: white;
+    width: 20%;
+    padding: 1rem;
+    text-align: center;
+    margin: 0rem 4.6rem;
+    font-size: 1.5rem;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+    border: 1px solid white;
+    border-radius: 19px;
+    background-color: #CCCCCC;
+    color: #14A098;
+}
+
+.hamberger {
+    display: none;
+}
+
+/* ----------------------ABOUT SECTION------------------------- */
+#aboutme-pointer {
+
+    padding: 2rem;
+    background-color: #0F292F;
+}
+
+#Aboutme {
+    z-index: -2;
+    font-family: 'Basic', sans-serif;
+    padding: 1rem 0rem;
+    width: 100%;
+    justify-content: center;
+    background-color: #0F292F;
+}
+
+#Aboutme .Heading {
+    font-size: 1.7rem;
+    width: 100%;
+    color: #CCCCCC;
+    margin: 0rem 0rem;
+    justify-content: center;
+    text-align: center;
+}
+
+#Aboutme .Heading h1 {
+    display: inline;
+    margin-right: 1rem;
+}
+
+#Aboutme .Heading h2 {
+    font-size: 3.4rem;
+    color: #14A098;
+    display: inline-block;
+}
+
+#Aboutme .ContentA {
+    border-radius: 3rem;
+    margin: 0.1rem auto;
+    background-color: #0F292F;
+    margin-bottom: 2rem;
+    padding: 1rem 1rem;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+#Aboutme .ContentA .left {
+    margin: 0.1rem 0rem;
+    display: flex;
+    width: 20%;
+    height: 40%;
+}
+
+#Aboutme .ContentA .left img {
+    width: 100%;
+    height: 100%;
+}
+
+
+#Aboutme .ContentA .right {
+    color: #CCCCCC;
+    margin: 0.1rem 2rem;
+    margin-left: 0rem;
+    width: 50%;
+    padding: 5rem 5rem;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Aboutme .ContentA .right h2 {
+    font-size: 2.5rem;
+    color: #CCCCCC;
+}
+
+#Aboutme .ContentA .right h4 {
+    font-size: 1.5rem;
+    color: #CCCCCC;
+    padding-bottom: 1.9rem;
+}
+
+#Aboutme .ContentA .right p {
+    font-family: inherit;
+    color: #CCCCCC;
+    font-size: 1.3rem;
+    font-weight: 400;
+    padding: 0.25rem 0rem;
+}
+
+
+/* ----------------------EDUCATION SECTION------------------------- */ 
+#education-pointer {
+    padding: 2rem;
+    background-color: #0F292F;
+}
+
+#Education {
+    padding: 0.2rem 0rem;
+    width: 100%;
+    height: 100%;
+    background-color: #0F292F;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+#Education .heading {
+    color: #CCCCCC;
+    font-family: 'Basic', sans-serif;
+    font-size: 1.7rem;
+    align-items: center;
+    text-align: center;
+    margin-top: 0rem;
+    padding: 0rem;
+}
+
+#Education .heading h1 {
+    font-size: 3.5rem;
+}
+
+#Education .btech {
+    background-color: #14A098;
+    box-shadow: 4px 4px #14A098;
+    border: 2px solid rgba(128, 128, 128, 0.521);
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    margin: 1rem auto;
+    padding: 0rem;
+    display: grid;
+    width: 70%;
+    grid-template-columns: 1fr 3fr;
+}
+
+#Education .btech .logo {
+    display: block;
+    padding: 4rem;
+    background: url("images/medicaps.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+#Education .btech .content {
+    padding: 0rem 1rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#Education .btech .content h2 {
+    font-size: 1.7rem;
+    padding: 0.5rem 0rem;
+    color: #CCCCCC;
+}
+
+#Education .btech .content h4 {
+    font-size: 1.2rem;
+    color: #CCCCCC;
+    padding: 0.3rem 0rem;
+}
+
+#Education .btech .content h5 {
+    color: #CCCCCC;
+    font-size: 1.3rem;
+    padding: 0.3rem 0rem;
+}
+
+#Education .HSC {
+    background-color: #14A098;
+    box-shadow: 4px 4px #14A098;
+    border: 2px solid rgba(128, 128, 128, 0.521);
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    margin: 1rem auto;
+    padding: 0rem;
+    display: grid;
+    width: 70%;
+    grid-template-columns: 1fr 3fr;
+}
+
+#Education .HSC .logo {
+    display: block;
+    padding: 4rem;
+    background: url("images/sbvm.jpg");
+    background-repeat: no-repeat;
+    background-size: 230px;
+}
+
+#Education .HSC .content {
+    padding: 0rem 1rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#Education .HSC .content h2 {
+    font-size: 1.7rem;
+    padding: 0.5rem 0rem;
+    color: #CCCCCC;
+}
+
+#Education .HSC .content h4 {
+    font-size: 1.2rem;
+    color: #CCCCCC;
+    padding: 0.3rem 0rem;
+}
+
+#Education .HSC .content h5 {
+    color: #CCCCCC;
+    font-size: 1.3rem;
+    padding: 0.3rem 0rem;
+}
+
+
+#Education .SSC {
+    background-color: #14A098;
+    box-shadow: 4px 4px #14A098;
+    border: 2px solid rgba(128, 128, 128, 0.521);
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    margin: 1rem auto;
+    padding: 0rem;
+    display: grid;
+    width: 70%;
+    grid-template-columns: 1fr 3fr;
+}
+
+#Education .SSC .logo {
+    display: block;
+    padding: 4rem;
+    background: url("images/sbvm.jpg");
+    background-repeat: no-repeat;
+    background-size: 230px;
+}
+
+#Education .SSC .content {
+    padding: 0rem 1rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#Education .SSC .content h2 {
+    font-size: 1.7rem;
+    padding: 0.5rem 0rem;
+    color: #CCCCCC;
+}
+
+#Education .SSC .content h4 {
+    font-size: 1.2rem;
+    color: #CCCCCC;
+    padding: 0.3rem 0rem;
+}
+
+#Education .SSC .content h5 {
+    color: #CCCCCC;
+    font-size: 1.3rem;
+    padding: 0.3rem 0rem;
+}
+
+/* ----------------------WORK SECTION------------------------- */
+#work-pointer {
+    padding: 2rem;
+    background-color: #0F292F;
+}
+
+#Work {
+    background-color: #0F292F;
+    padding: 1rem 0rem;
+    width: 100%;
+    margin-bottom: 0rem;
+    text-align: center;
+}
+
+#Work .heading {
+    color: #CCCCCC;
+    width: 100%;
+    margin: 0rem 0rem;
+    font-family: 'Basic', sans-serif;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+}
+
+#Work .heading h1 {
+    font-size: 3.5rem;
+}
+
+#Work .project {
+    border: 1px solid #14A098;
+    background-color: #14A098;
+    color: #f5f5f5;
+    padding: 0rem;
+    margin: 1rem 1rem;
+    width: 28%;
+    display: inline-block;
+}
+
+#Work .project:hover {
+    background-color: #CCCCCC;
+    color: #0F292F;
+    border: 1px solid #CCCCCC;
+}
+
+#Work .project h2 {
+    font-size: 1.3rem;
+    padding: 0.3rem 0rem;
+    margin: 0rem 0rem;
+    font-family: 'Basic', sans-serif;
+}
+
+#Work .project img {
+    width: 100%;
+    height: fit-content;
+}
+
+/* ----------------------SKILLS SECTION------------------------- */
+#skills-pointer {
+
+    padding: 2rem;
+    background-color: #0F292F;
+}
+
+#Skills {
+    margin-top: 0rem;
+    padding: 0.2rem 0rem;
+    width: 100%;
+    background-color: #0F292F;
+}
+
+#Skills .heading {
+    text-align: center;
+    color: #CCCCCC;
+    width: 100%;
+    margin: 0.5rem 0rem;
+    margin-top: 0rem;
+    font-family: 'Basic', sans-serif;
+    font-size: 1.7rem;
+    justify-content: center;
+}
+
+#Skills .heading h1 {
+    font-size: 3.2rem;
+}
+
+#Skills .content {
+    border: 1px solid black;
+    border-radius: 2rem;
+    background-color: #14A098;
+    text-align: center;
+    width: 85%;
+    height: 100%;
+    margin: 0.2rem auto;
+    padding: 1.2rem;
+
+}
+
+#Skills .content .container {
+    border: 1px solid black;
+    background-color: white;
+    padding: 3.5rem;
+    margin: 0.6rem 1rem;
+    height: auto;
+    border-radius: 0.4rem;
+    width: 10%;
+    height: 15%;
+}
+
+#Skills .content .container:hover {
+    cursor: pointer;
+}
+
+#cl {
+    background-image: url("images/c.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: inline-block;
+
+}
+
+#cpp {
+    display: inline-block;
+    background-image: url("images/c++.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: inline-block;
+}
+
+#java {
+    background-image: url("images/java.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: inline-block;
+}
+
+#python {
+    background-image: url("images/python.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: inline-block;
+}
+
+#html {
+    background-image: url("images/html.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: inline-block;
+}
+
+#css {
+    background-image: url("images/css.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: inline-block;
+}
+
+#mysql {
+    background-image: url("images/mysql.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: inline-block;
+}
+
+#dsa {
+    background-image: url("images/dsa.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: inline-block;
+}
+
+/* ----------------------RESUME SECTION------------------------- */
+#Resume-pointer {
+
+    padding: 2rem;
+    background-color: #0F292F;
+}
+
+#Resume {
+    margin-top: 0rem;
+    padding: 0.2rem 0rem;
+    width: 100%;
+    background-color: #0F292F;
+}
+
+#Resume .heading {
+    text-align: center;
+    color: #CCCCCC;
+    width: 100%;
+    margin: 0.5rem 0rem;
+    margin-top: 0rem;
+    font-family: 'Basic', sans-serif;
+    font-size: 1.7rem;
+    justify-content: center;
+}
+
+#Resume .heading h1 {
+    font-size: 3.2rem;
+}
+
+#Resume .content {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 2rem;
+    background-color: #14A098;
+    text-align: center;
+    width: 85%;
+    height: 100%;
+    margin: 0.2rem auto;
+    padding: 1.2rem;
+}
+
+#Resume .content .img {
+    margin: 0.5rem;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+#Resume .content .img .img-image {
+    margin: 1rem auto;
+    width: 70%;
+    height: 70%;
+}
+
+#Resume .content .img .img-image img {
+    width: 100%;
+    height: 100%;
+}
+
+#Resume .content .download {
+    margin: 0.5rem;
+    width: 50%;
+}
+
+#Resume .content .download .download-btn {
+    margin: 10rem 1rem;
+    padding: 1rem;
+    background-color: #CCCCCC;
+}
+
+#Resume .content .download .download-btn a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color: #0F292F;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 1rem;
+    width: 100%;
+}
+
+#Resume .content .download .download-btn:hover {
+    cursor: pointer;
+    background-color: #979797;
+}
+
+/* ----------------------CONTACT SECTION------------------------- */
+#contact-pointer {
+    padding: 2rem;
+    background-color: #0F292F;
+}
+
+#Contact {
+    background-color: #0F292F;
+    padding: 0rem;
+    width: 100%;
+    margin-bottom: 0rem;
+}
+
+#Contact .heading {
+    color: #CCCCCC;
+    width: 99.4%;
+    margin: 0.5rem 0.2rem;
+    margin-top: 0rem;
+    font-family: 'Basic', sans-serif;
+    font-size: 1.7rem;
+    display: flex;
+    justify-content: center;
+}
+
+#Contact .heading h1 {
+    display: inline;
+    margin-right: 1rem;
+    font-size: 3.2rem;
+}
+
+#Contact .heading h2 {
+    margin-top: 0.2rem;
+    font-size: 3.2rem;
+    color: #14A098;
+    display: inline-block;
+}
+
+#Contact .form {
+    border: 1px solid black;
+    border-radius: 1rem;
+    padding: 2.5rem 1rem;
+    width: 85%;
+    background-color: #14A098;
+    margin: 0rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#Contact .form .image {
+    background: url("images/contact.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    width: 90%;
+    height: 90%;
+}
+
+#Contact .form input,
+textarea,
+button {
+    background-color: #CCCCCC;
+    margin: 0.4rem 2rem;
+    border: 1px solid;
+    width: 80%;
+    height: 2.5rem;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    padding: 0rem 1.2rem;
+    color: black;
+    font-size: 1.2rem;
+}
+
+textarea {
+    height: 8rem;
+}
+
+button:hover {
+    border: 0.15rem solid black;
+    background-color: #14A098;
+}
+
+/* ----------------------LINKS SECTION------------------------- */
+.links {
+    border-top: 1px solid #CCCCCC;
+    padding: 3rem 0rem;
+    margin-top: 1rem;
+    z-index: -1;
+    background-color: #0F292F;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: 'Basic', sans-serif;
+}
+
+.links .links-itm {
+    margin: 0rem auto;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.links .links-itm .linkdein {
+    padding: 0.5rem 0.3rem;
+}
+
+.links .links-itm .contactinfo {
+    color: #CCCCCC;
+    margin: 0rem 1.5rem;
+    padding: 0.5rem 1rem;
+    text-align: left;
+}
+
+.links .links-itm .contactinfo h4 {
+    padding: 0.4rem 0.3rem;
+    font-size: 1.2rem;
+}
+
+.links .links-itm .contactinfo h4:hover {
+    color: #14A098;
+    cursor: pointer;
+}
+
+.links .links-itm .contactinfo h1 {
+    color: #14A098;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+    font-size: 1.7rem;
+}
+
+.links .links-itm .contactinfo i {
+    padding-right: 0.6rem;
+}
+
+.links .links-itm .linkdein i {
+    color: #CCCCCC;
+    font-size: 1.4rem;
+}
+
+.links .links-itm .linkdein i:hover {
+    color: #14A098;
+    cursor: pointer;
+}
+
+.links .links-itm .quicklinks {
+    text-align: left;
+    color: #CCCCCC;
+    margin: 0rem 1.5rem;
+    padding: 0.2rem 0.8rem;
+}
+
+.links .links-itm .quicklinks li {
+    padding: 0.2rem;
+    list-style: none;
+}
+
+.links .links-itm .quicklinks li:hover {
+    color: #14A098;
+}
+
+.links .links-itm .quicklinks a:hover {
+    color: #14A098;
+}
+
+.links .links-itm .quicklinks a {
+    color: #CCCCCC;
+    font-size: 1.3rem;
+}
+
+.links .links-itm .quicklinks h1 {
+    color: #14A098;
+    font-size: 1.7rem;
+    padding: 0.5rem 0rem;
+}
+
+.links .links-itm .thank {
+    margin: 0rem 1.5rem;
+    padding: 2rem 0.2rem;
+    color: #CCCCCC;
+
+}
+
+.links .links-itm .thank p {
+    padding-top: 4rem;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+}
+
+/* **************************************TAB CSS************************************************/
+@media screen and (max-width:1022px) {
+    * {
+        font-size: 14px;
+    }
+   /* ----------------------NAV SECTION------------------------- */
+    .navbar #sign {
+        color: white;
+        margin: 0.5rem auto;
+        display: block;
+        position: relative;
+    }
+
+    .navbar .navelements {
+        margin: 0rem auto;
+    }
+
+    .navbar {
+        margin: 0rem 0rem;
+        padding: 0.5rem auto;
+        text-align: center;
+    }
+
+    .navbar ul li {
+        justify-content: center;
+        width: 15%;
+        padding: 0rem 0rem;
+    }
+
+    .navbar a {
+        width: 100%;
+        padding: 0.5rem 0.2rem;
+    }
+
+    .hamberger {
+        display: none;
+    }
+
+   /* ----------------------ABOUT SECTION------------------------- */
+    #Aboutme {
+        text-align: center;
+    }
+
+    #Aboutme .ContentA {
+        display: block;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    #Aboutme .ContentA .left {
+        margin: 0rem auto;
+        width: 30%;
+    }
+
+    #Aboutme .ContentA .right {
+        display: block;
+        text-align: justify;
+        margin: 0.1rem auto;
+        width: 70%;
+        padding: 1rem;
+    }
+
+    #Aboutme .ContentA .right h2 {
+        text-align: center;
+    }
+
+    #Aboutme .ContentA .right h4 {
+        text-align: center;
+    }
+
+   /* ----------------------SKILLS SECTION------------------------- */
+    #Skills .content {
+        height: 100%;
+        padding: 0.2rem;
+        width: 70%;
+
+    }
+
+    #Skills .content .container {
+        width: 5%;
+        height: 10%;
+    }
+
+    /* ----------------------RESUME SECTION------------------------- */
+    #Resume .content {
+        flex-direction: column;
+        width: 70%;
+    }
+
+    #Resume .content .img {
+        width: 100%;
+    }
+
+    #Resume .content .download {
+        width: 70%;
+        margin: 0.5rem auto;
+    }
+
+    #Resume .content .download .download-btn {
+        margin: 1rem 1rem;
+    }
+
+   /* ----------------------WORK SECTION------------------------- */
+    #Work .project {
+        display: block;
+        width: 70%;
+        margin: 1rem auto;
+    }
+
+   /* ----------------------CONTACT SECTION------------------------- */
+    #Contact .form {
+        background: url("images/contact.jpg") no-repeat center center/cover;
+        padding: 0.5rem;
+        opacity: 0.9;
+        width: 70%;
+        margin: 2rem auto;
+        display: block;
+    }
+
+    #Contact .form .image {
+        display: none;
+    }
+
+    #Contact form {
+        display: block;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin: 0rem 0rem;
+        padding: 0rem 0rem;
+
+    }
+
+    #Contact .form input,
+    textarea,
+    button {
+        position: relative;
+        margin: 0.4rem 1.1rem;
+        border: 1px solid;
+        width: 90%;
+        padding: 0rem 1.2rem;
+        font-size: 1.2rem;
+        text-align: center;
+        background-color: white;
+        opacity: 0.7;
+        color: black;
+    }
+}
+
+/* **************************************PHONE CSS************************************************/
+@media screen and (max-width:649px) {
+    *{
+        font-size: 12px;
+    }
+    /* ----------------------NAV SECTION------------------------- */
+
+    .navbar #sign {
+        margin: 0.5rem auto;
+        display: block;
+    }
+
+    .navbar {
+        display: block;
+        width: 100%;
+        margin: 0rem 0rem;
+        padding: 0.5rem 0rem;
+    }
+
+    .navbar .navelements {
+        margin: 0;
+        width: 100%;
+    }
+
+    .menu {
+        background-color: #14A098;
+        margin-left: 0rem;
+        position: fixed;
+        transform: translateY(-140%);
+        transition: transform 0.2s;
+        width: 5rem;
+        z-index: -2;
+    }
+
+    .navbar ul li {
+        display: block;
+        justify-content: center;
+        width: 100%;
+        padding: 0.4rem 0rem;
+
+    }
+
+    .navbar a {
+        width: 100%;
+        padding: 0.5rem 0.2rem;
+        font-size: 1rem;
+    }
+
+    .navbar li:hover {
+        text-decoration: underline;
+        border-radius: 19px;
+        background-color: #14A098;
+        color: black;
+    }
+
+    .navbar a:hover {
+        border: none;
+    }
+
+    .hamberger {
+        padding: 0.3rem;
+        margin: 1rem;
+        margin-right: 0rem;
+        top: 0rem;
+        left: 0rem;
+        width: 15%;
+        height: 7%;
+        display: block;
+        position: fixed;
+        cursor: pointer;
+    }
+
+    .closeIcon {
+        display: none;
+    }
+
+    .showMenu {
+        transform: translateY(0);
+    }
+
+    /* ----------------------ABOUT SECTION------------------------- */
+    #aboutme-pointer {
+        padding: 0rem;
+        background-color: #0F292F;
+    }
+
+    #Aboutme {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #Aboutme .ContentA .left {
+        margin: 0rem auto;
+        width: 30%;
+    }
+
+    #Aboutme .ContentA .left img {
+        width: 100%;
+        height: 100%;
+    }
+
+    #Aboutme .ContentA .right {
+        display: block;
+        text-align: justify;
+        margin: 0.1rem 0rem;
+        width: 95%;
+        padding: 1rem;
+    }
+
+    #Aboutme .Heading {
+        font-size: 1.4rem;
+    }
+
+    #Aboutme .Heading h2 {
+        font-size: 2.8rem;
+    }
+
+    #Aboutme .ContentA .right h2 {
+        font-size: 1.7rem;
+        text-align: center;
+    }
+
+    #Aboutme .ContentA .right h4 {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    #Aboutme .ContentA .right p {
+        font-size: 1.1rem;
+    }
+
+    /* ----------------------EDUCATION SECTION------------------------- */
+    #education-pointer {
+        padding: 0rem;
+        background-color: #0F292F;
+    }
+
+    #Education .heading {
+        font-size: 1.4rem;
+        margin-top: 0rem;
+    }
+
+    #Education .btech {
+        display: block;
+        justify-content: center;
+        width: 90%;
+
+    }
+
+    #Education .btech .logo {
+        background-size: cover;
+    }
+
+    #Education .HSC {
+        display: block;
+        justify-content: center;
+        width: 90%;
+
+    }
+
+    #Education .HSC .logo {
+        background-size: cover;
+    }
+
+    #Education .SSC {
+        display: block;
+        justify-content: center;
+        width: 90%;
+
+    }
+
+    #Education .SSC .logo {
+        background-size: cover;
+    }
+
+    /* ----------------------WORK SECTION------------------------- */
+    #work-pointer {
+        padding: 0rem;
+    }
+
+    #Work .project {
+        display: block;
+        width: 90%;
+    }
+
+    #Work .heading {
+        font-size: 1.4rem;
+    }
+
+    /* ----------------------SKILLS SECTION------------------------- */
+    #skills-pointer {
+        padding: 0rem;
+    }
+
+    #Skills .heading {
+        font-size: 1.4rem;
+    }
+
+    #Skills .content {
+        height: 100%;
+        padding: 0.2rem;
+        width: 95%;
+
+    }
+
+    #Skills .content .container {
+        width: 5%;
+        height: 10%;
+    }
+
+    /* ----------------------RESUME SECTION------------------------- */
+    #Resume .content {
+        flex-direction: column;
+        width: 85%;
+    }
+    #Resume .content .download-btn a{
+        font-size: 0.1rem;
+        padding: 0rem;
+    }
+
+
+    /* ----------------------CONTACT SECTION------------------------- */
+    #contact-pointer {
+        padding: 0rem;
+    }
+
+    #Contact .heading {
+        font-size: 1.4rem;
+    }
+
+    #Contact .heading h2 {
+        font-size: 2.8rem;
+    }
+
+    #Contact .form {
+        background: url("contact.jpg") no-repeat center center/cover;
+        padding: 0.5rem;
+        width: 90%;
+        margin: 2rem auto;
+    }
+
+    #Contact .form .image {
+        display: none;
+    }
+
+    #Contact form {
+        display: block;
+        justify-content: center;
+        margin: 0rem 0rem;
+        padding: 0rem 0rem;
+    }
+
+    #Contact .form input,
+    textarea,
+    button {
+        position: relative;
+        margin: 0.4rem 1.1rem;
+        border: 1px solid;
+        width: 80%;
+        padding: 0rem 1.2rem;
+        font-size: 1.2rem;
+        text-align: center;
+        background-color: white;
+        opacity: 0.7;
+        color: black;
+
+    }
+
+    textarea {
+        width: 80%;
+    }
+
+    /* ----------------------LINKS------------------------- */
+    .links .links-itm {
+        display: block;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    .links .links-itm .contactinfo {
+        text-align: center;
+        display: block;
+        color: whitesmoke;
+        margin: 0rem auto;
+        width: 90%;
+        padding: 0.2rem 0rem;
+    }
+
+    .links .links-itm .quicklinks {
+        text-align: center;
+        display: block;
+        margin: 0.5rem auto;
+        width: 90%;
+        padding: 0.2rem 0rem;
+    }
+
+    .links .links-itm .thank {
+        text-align: center;
+        width: 90%;
+        display: block;
+        margin: 0.5rem auto;
+        padding: 0.2rem 0rem;
+        color: white;
+    }
+}
