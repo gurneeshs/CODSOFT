@@ -20,9 +20,19 @@ let result = document.querySelector("#result")
 let strng = ""
 let strng1 = ""
 let buttons = document.querySelectorAll("button")
+let backspace = document.querySelector("#backspace")
 
 buttons = Array.from(buttons)
 console.log(buttons)
+buttons.forEach((btn)=>{
+    console.log(btn.innerHTML)
+})
+backspace.addEventListener("click",()=>{
+    strng = strng.substring(0,(strng.length-1))
+    strng1 = strng1.substring(0,(strng1.length-1))
+    result.innerText = strng
+
+})
 buttons.forEach((btn)=>{
     btn.addEventListener("click",(e)=>{
         if(e.target.innerHTML == "="){
